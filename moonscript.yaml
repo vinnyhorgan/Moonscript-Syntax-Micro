@@ -7,7 +7,7 @@ rules:
   # RED UNSURROUNDED
   - statement: "([.:;,+*|=!\\%]|<|>|/|-|&)"
   # RED
-  - statement: "\\b(for|in|when|do|then|and|or|if|else|switch|return)\\b"
+  - statement: "\\b(while|for|in|when|do|then|and|or|if|else|switch|return)\\b"
   # ORANGE
   - preproc: "\\b(print|import|export)\\b"
   # BLUE UNSURROUNDED
